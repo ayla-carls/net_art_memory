@@ -1,0 +1,141 @@
+body{
+    background-color: black;
+    cursor: url('../img/wii_remote.png') 16 16, auto;
+}
+    
+.starwarslogo{ 
+    position: absolute;
+    top: 50%;
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes logo {
+    from{
+        top: 100px;
+    }
+    to{
+        bottom: 0px;
+    }
+    
+}
+
+.fighterjet{
+    position: absolute;
+    top: 187%;
+    animation-name: tilt;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+ }
+
+ @keyframes tilt {
+    from{
+        transform: rotate(-10deg);
+    }
+    to{
+        transform: rotate(10deg);
+    }
+    
+ }
+
+.droidicon{ 
+    position: absolute;
+    top: 395%;
+    left: 10%;
+    animation-name: drift;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    
+}
+ @keyframes drift {
+    from{
+        left: -50px;
+    }
+    to{
+        left: 1550px;
+    }
+ }
+.solo{
+    position: absolute;
+    top: 530%;
+    left: 60%;
+    animation-name: small;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes small {
+    from{
+        transform: rotate(-5deg);
+    }
+    to{
+        transform: rotate(5deg);
+    }
+    
+}
+
+.princess{
+    position: absolute;
+    top: 570%;
+    left: 15%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    animation-name: flip;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes flip {
+    from{
+        -webkit-transform: scale(1);
+        transform: rotateY('-1');
+    }
+    to{
+        transform: rotateY('1');
+    }
+}
+
+.red{
+    position: absolute;
+    top: 720%;
+    left: 55%;
+    animation-name: spin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    
+}
+@keyframes spin {
+    from{
+        transform: rotate(-180deg);
+    }
+    to{
+        transform: rotate(180deg);
+    }
+}
+
+.lightsabers{
+    position: absolute;
+    top: 815%;
+}
+
+.bike{
+    position: absolute;
+    top: 1035%;
+    left: 12%;
+    animation-name: speed;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes speed {
+    from{
+        left: 500px;
+    }
+    to{
+        left: 50px;
+    }
+}
