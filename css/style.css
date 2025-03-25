@@ -2,6 +2,10 @@ body{
     background-color: black;
     cursor: url('../img/wii_remote.png') 16 16, auto;
 }
+
+img {
+    max-width: 100%;
+}
     
 .starwarslogo{ 
     position: absolute;
