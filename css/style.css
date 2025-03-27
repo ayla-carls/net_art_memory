@@ -143,3 +143,8 @@ img {
         left: 50px;
     }
 }
+
+@media screen and (max-width: 1242px) {
+	body {
+		background-color: brown;}
+}
